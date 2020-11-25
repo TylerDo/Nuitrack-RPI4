@@ -29,7 +29,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -42,24 +48,32 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16080}
+      Script: {instanceID: 11366}
     - Class: 114
-      Script: {instanceID: 16082}
+      Script: {instanceID: 11410}
     - Class: 114
-      Script: {instanceID: 16120}
+      Script: {instanceID: 12206}
     - Class: 114
-      Script: {instanceID: 16128}
+      Script: {instanceID: 12334}
     - Class: 114
-      Script: {instanceID: 16144}
+      Script: {instanceID: 12574}
     - Class: 114
-      Script: {instanceID: 23442}
+      Script: {instanceID: 12744}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -86,6 +100,12 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 2fb5906ff78bbe68dc94cf5a01787e6b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CalibrationInfo
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -98,10 +118,22 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
+      Hash: b7de65b6f1624a6598b3bec1a62494d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TPoseCalibration
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c5816619a911875c9317681228de9a27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UserTrackerVisMesh
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -114,6 +146,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: c23e3a3e221d5d321e3e309ad3959511
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SensorPointReplacer
   - hash:
       serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
@@ -134,10 +172,10 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
+      Hash: cd12fd43c7443dcec8812264ec0ca8f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PointerPassing
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -156,6 +194,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5abdb692a85ac11122eaae442a7c07e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UserTrackerExample
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -182,10 +226,22 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: fb2876616d40d7aa20f05b8edee9ac8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NuitrackAvatar
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2339061df277f26a2f644f11ca3173b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DepthToTexture
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -224,6 +280,36 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: cdff9d6ad2e0d565de501895e35f1a22
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SimpleSkeletonAvatar3d
+  - hash:
+      serializedVersion: 2
+      Hash: 6719dd476d406a5f669a5895b1b53ac5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NuitrackModules
+  - hash:
+      serializedVersion: 2
+      Hash: 8bdf772bd8382e98a3e901dc78f8810a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TouchCameraControls
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GesturesVisualization
+  - hash:
+      serializedVersion: 2
+      Hash: fd976c8714fadfacb4d13a86c18526a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkeletonExample
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -254,6 +340,18 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 328baf3622f2ae9c6d5f17e790dd7775
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DebugDepth
+  - hash:
+      serializedVersion: 2
+      Hash: fe6d0ece772c3502baff480d033e4432
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PointerRotation
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -266,16 +364,58 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 22ef01acd98158d920a608c690870e1a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UserTrackerVisualization
+  - hash:
+      serializedVersion: 2
+      Hash: 1264c95fbe1ea7d1f44648f341352bed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SensorRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 192c999f4065cc1ac506b2f8491ddb1d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ModulesUI
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 85f6d5862fa6a3b2531279add1da4cfe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NuitrackManager
+  - hash:
+      serializedVersion: 2
+      Hash: 99624c7b5b0bfa3d1d55949f92396fdf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RiggedAvatarAdvanced
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 140d8531f9540116722d2ecb5e90e238
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RGBToTexture
+  - hash:
+      serializedVersion: 2
+      Hash: d672b734a990a41eac4241939433079d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IssuesProcessor
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -290,16 +430,52 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CurrentUserTracker
+  - hash:
+      serializedVersion: 2
       Hash: f84d945e5e1ca985698660fc26e9657f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: c39edf441addcce050d004bf4dba2031
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WristsPositionsDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 1eb99ab14fe0e48ed13527d552b0f6ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SegmentToTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 3ca861f7b893bea1ae1d1d0f73c0988b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExceptionsLogger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SensorDisconnectChecker
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f2d8e985db58a0db9201baf0704b1d0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkeletonAvatar
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
@@ -338,16 +514,52 @@ ScriptsOnlyBuild:
     className: ActivationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: ebe4bc07600a4163385f56a97d211fc1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkeletonVisualization2
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 4224c589bdad5feac7f626e79fa550ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlatformSetsData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CamRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 0a333cafa1d032ea84e516d8e2e93470
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FPSCounter
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9ce07f8de5ca946b2829b169b16b8b42
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnviromentSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: f18f1baddc8ecbf4f78b907ae36ecf57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NativeAvatar
   - hash:
       serializedVersion: 2
       Hash: 6939772cb3ce775a8e8d99f332534491
@@ -368,6 +580,12 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 998ca758b5e6cd33222eb14c140693f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandTrackerVisualization
+  - hash:
+      serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -386,6 +604,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: f6e3392cd5cf8a978cd052ca44314607
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NuitrackAvatarAdvanced
+  - hash:
+      serializedVersion: 2
       Hash: 8cd1cbba27f3cb1717254f668e9e0d5a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -398,16 +622,34 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
+      Hash: ddc5b9de4d695accef7a73646dc836b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandPressure
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
+      Hash: 38556308e3f77107b73e1198360bd7c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DrawSegment
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: fd976c8714fadfacb4d13a86c18526a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkeletonsVisualization
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -426,6 +668,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 3f08998eb757f7d588ea38ef323d1f1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackTextureCreator
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -464,268 +712,28 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 7072231382eb3c4871b3dd75ad0227e1
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
-  - hash:
-      serializedVersion: 2
-      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ToggleGroup
-  - hash:
-      serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 2fb5906ff78bbe68dc94cf5a01787e6b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CalibrationInfo
-  - hash:
-      serializedVersion: 2
-      Hash: b7de65b6f1624a6598b3bec1a62494d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TPoseCalibration
-  - hash:
-      serializedVersion: 2
-      Hash: c5816619a911875c9317681228de9a27
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UserTrackerVisMesh
-  - hash:
-      serializedVersion: 2
-      Hash: c23e3a3e221d5d321e3e309ad3959511
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SensorPointReplacer
-  - hash:
-      serializedVersion: 2
-      Hash: cd12fd43c7443dcec8812264ec0ca8f7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PointerPassing
-  - hash:
-      serializedVersion: 2
-      Hash: 5abdb692a85ac11122eaae442a7c07e0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UserTrackerExample
-  - hash:
-      serializedVersion: 2
-      Hash: fb2876616d40d7aa20f05b8edee9ac8a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NuitrackAvatar
-  - hash:
-      serializedVersion: 2
-      Hash: 2339061df277f26a2f644f11ca3173b3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DepthToTexture
-  - hash:
-      serializedVersion: 2
-      Hash: cdff9d6ad2e0d565de501895e35f1a22
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SimpleSkeletonAvatar3d
-  - hash:
-      serializedVersion: 2
-      Hash: 6719dd476d406a5f669a5895b1b53ac5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NuitrackModules
-  - hash:
-      serializedVersion: 2
-      Hash: 8bdf772bd8382e98a3e901dc78f8810a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TouchCameraControls
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GesturesVisualization
-  - hash:
-      serializedVersion: 2
-      Hash: fd976c8714fadfacb4d13a86c18526a3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SkeletonExample
-  - hash:
-      serializedVersion: 2
-      Hash: 328baf3622f2ae9c6d5f17e790dd7775
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DebugDepth
-  - hash:
-      serializedVersion: 2
-      Hash: fe6d0ece772c3502baff480d033e4432
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PointerRotation
-  - hash:
-      serializedVersion: 2
-      Hash: 22ef01acd98158d920a608c690870e1a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UserTrackerVisualization
-  - hash:
-      serializedVersion: 2
-      Hash: 1264c95fbe1ea7d1f44648f341352bed
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SensorRotation
-  - hash:
-      serializedVersion: 2
-      Hash: 192c999f4065cc1ac506b2f8491ddb1d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ModulesUI
-  - hash:
-      serializedVersion: 2
-      Hash: 85f6d5862fa6a3b2531279add1da4cfe
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NuitrackManager
-  - hash:
-      serializedVersion: 2
-      Hash: 99624c7b5b0bfa3d1d55949f92396fdf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RiggedAvatarAdvanced
-  - hash:
-      serializedVersion: 2
-      Hash: 140d8531f9540116722d2ecb5e90e238
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RGBToTexture
-  - hash:
-      serializedVersion: 2
-      Hash: d672b734a990a41eac4241939433079d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: IssuesProcessor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CurrentUserTracker
-  - hash:
-      serializedVersion: 2
-      Hash: c39edf441addcce050d004bf4dba2031
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: WristsPositionsDebug
-  - hash:
-      serializedVersion: 2
-      Hash: 1eb99ab14fe0e48ed13527d552b0f6ce
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SegmentToTexture
-  - hash:
-      serializedVersion: 2
-      Hash: 3ca861f7b893bea1ae1d1d0f73c0988b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ExceptionsLogger
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SensorDisconnectChecker
-  - hash:
-      serializedVersion: 2
-      Hash: f2d8e985db58a0db9201baf0704b1d0f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SkeletonAvatar
-  - hash:
-      serializedVersion: 2
-      Hash: ebe4bc07600a4163385f56a97d211fc1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SkeletonVisualization2
-  - hash:
-      serializedVersion: 2
-      Hash: 4224c589bdad5feac7f626e79fa550ff
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlatformSetsData
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CamRotation
-  - hash:
-      serializedVersion: 2
-      Hash: 0a333cafa1d032ea84e516d8e2e93470
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FPSCounter
-  - hash:
-      serializedVersion: 2
-      Hash: 9ce07f8de5ca946b2829b169b16b8b42
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnviromentSwitcher
-  - hash:
-      serializedVersion: 2
-      Hash: 998ca758b5e6cd33222eb14c140693f4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HandTrackerVisualization
-  - hash:
-      serializedVersion: 2
-      Hash: f6e3392cd5cf8a978cd052ca44314607
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NuitrackAvatarAdvanced
-  - hash:
-      serializedVersion: 2
-      Hash: ddc5b9de4d695accef7a73646dc836b6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HandPressure
-  - hash:
-      serializedVersion: 2
-      Hash: 38556308e3f77107b73e1198360bd7c4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DrawSegment
-  - hash:
-      serializedVersion: 2
-      Hash: fd976c8714fadfacb4d13a86c18526a3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SkeletonsVisualization
-  - hash:
-      serializedVersion: 2
-      Hash: 3f08998eb757f7d588ea38ef323d1f1c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BackTextureCreator
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EmergencyExit
   - hash:
       serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
       Hash: bf1df8dfb160df6a1921ed69fe9df5cd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PointerVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
   - hash:
       serializedVersion: 2
       Hash: 1e6fc008d4d0361539bb8f5518b7099c
@@ -740,10 +748,10 @@ ScriptsOnlyBuild:
     className: CameraRotation
   - hash:
       serializedVersion: 2
-      Hash: f18f1baddc8ecbf4f78b907ae36ecf57
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NativeAvatar
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
   platform: 13
   scenePathNames:
   - Assets/Scenes/TrackingTest.unity
