@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NativeAvatar : MonoBehaviour{
+public class NativeAvatar : MonoBehaviour
+{
 
     //Joints of skeleton
     public nuitrack.JointType[] typeJoint;
@@ -12,7 +13,8 @@ public class NativeAvatar : MonoBehaviour{
     string message = "";
 
     // Start is called before the first frame update
-    void Start(){
+    void Start()
+    {
 
         CreatedJoint = new GameObject[typeJoint.Length];
 
@@ -28,16 +30,17 @@ public class NativeAvatar : MonoBehaviour{
     }
 
     // Update is called once per frame
-    void Update(){
+    void Update()
+    {
         // Check user presence in frame
-        if(CurrentUserTracker.CurrentUser != 0)
+        if (CurrentUserTracker.CurrentUser != 0)
         {
             message = "Skeleton found!";
             nuitrack.Skeleton skeleton = CurrentUserTracker.CurrentSkeleton; // Get current user skeleton info
-            for (int i  = 0; i < typeJoint.Length; i++)
+            for (int i = 0; i < typeJoint.Length; i++)
             {
                 // Get current joint data
-                nuitrack.Joint joint = skeleton.GetJoint(typeJoint[i]); 
+                nuitrack.Joint joint = skeleton.GetJoint(typeJoint[i]);
                 Vector3 newPosition = 0.001f * joint.ToVector3(); // Convert to milimeters
                 CreatedJoint[i].transform.localPosition = newPosition;
             }
@@ -49,7 +52,8 @@ public class NativeAvatar : MonoBehaviour{
     }
 
     // OnGUI method to display the message
-    void OnGUI(){
+    void OnGUI()
+    {
         GUI.color = Color.red;
         GUI.skin.label.fontSize = 50;
         GUILayout.Label(message);
