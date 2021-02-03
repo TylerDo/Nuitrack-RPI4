@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 /*
@@ -7,12 +9,23 @@ using UnityEngine.UI;
 
 public class UserSegment : MonoBehaviour
 {
+    /*
+   User Segment behavior
+   */
 
     string msg = "";
 
     //Array which stands for the colors used for colorizing the users,
     [SerializeField]
     Color32[] colorsList;
+
+    //Add Colliders field for passing the image width and height
+    [SerializeField]
+    Colliders collider;
+
+    //Add Object field for passing prefabs
+    [SerializeField]
+    Objects objectSpawner;
 
     //Rect field, which stands for a rectangular used for framing the sprite in the image
     Rect imageRect;
@@ -54,8 +67,12 @@ public class UserSegment : MonoBehaviour
         //Set Image type to simple (no stretching, etc) retain image aspect ratio
         segmentOut.type = Image.Type.Simple;
         segmentOut.preserveAspect = true;
+        //Colliders method pass the columns and rows
+        collider.CreateCollider(cols, rows);
+        //Object method to start random spawn
+        objectSpawner.StartSpawning(cols);
     }
-    
+
     /*
     When game ends
      */
@@ -98,6 +115,8 @@ public class UserSegment : MonoBehaviour
         segmentSprite = Sprite.Create(segmentTexture, imageRect, Vector3.one * 0.5f, 100f, 0, SpriteMeshType.FullRect);
         //Apply Sprite to Image
         segmentOut.sprite = segmentSprite;
+        //Call to Colliders
+        collider.UpdateFrame(frame);
     }
     /*
     Characteristics for msg variable
