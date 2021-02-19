@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/TrackingTest.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/TylerScenes/MainMenu.unity
+    guid: e253e026993ecb94ea99093e7aac0692
+  - enabled: 1
+    path: Assets/Scenes/Avatar Animation/Scenes/RiggedModel2.unity
+    guid: 9ebf8f0b560a9154a9153eba2b455ae9
+  - enabled: 1
+    path: Assets/Scenes/First Project/BasicSkeleton.unity
+    guid: 7fd016bdd72ae7140a31558cc82db94c
+  - enabled: 1
+    path: Assets/Scenes/SegmentExample/TexturePaint.unity
+    guid: c9d128e8cc547bb46b9b3e7ec136078c
   m_configObjects: {}
